@@ -1,0 +1,99 @@
+.login-button{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    cursor : pointer;
+}
+.nav-section{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center; /* menu-list를 가운데 정렬 */
+    align-items: center;
+    position: relative; /* search-section을 절대 위치로 배치하기 위해 relative 사용 */
+}
+
+.menu-list {
+    display: flex;
+    list-style: none; /* 기본 리스트 스타일 제거 */
+}
+
+.menu-list li {
+    margin-right: 20px; /* 리스트 아이템 간의 간격 설정 */
+}
+
+.search-section {
+    position: absolute;
+    right: 0; /* 부모의 오른쪽 끝에 위치 */
+    display: flex;
+    align-items: center;
+}
+
+.hover-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+/* 마우스를 올렸을 때 이미지를 확대 */
+.hover-image:hover {
+    transform: scale(1.2); /* 1.2배 확대 */
+}
+
+.login-page {
+  height: 100vh; /* 화면 전체 높이를 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    height: 1000px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-login {
+    width:60px;
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .btn-login:hover {
+    background-color: #c9302c;
+  }
+  
+  .product-img{
+    display: flex;
+    justify-content: flex-end;
+  }
